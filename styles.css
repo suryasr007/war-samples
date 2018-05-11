@@ -6,8 +6,15 @@
     background-image: url(./images/section-image.jpg);
 }
 .uk-navbar-nav>li>a{
-    color: #ffffff;
+    color: #ffffff;   
 }
 .title{
     color: white;
+}
+.uk-icon-link{
+    color:rgb(197, 195, 195) !important;
+}
+
+p {
+    font-size: 18px;
 }

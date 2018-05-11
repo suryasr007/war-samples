@@ -1,6 +1,6 @@
 $(document).ready(function(){       
     var scroll_start = 0;
-    var startchange = $('.section');
+    var startchange = $('.nav-change');
     var offset = startchange.offset();
     $(document).scroll(function() { 
        scroll_start = $(this).scrollTop();
