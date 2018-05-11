@@ -2,16 +2,13 @@
     width: 0px;  /* remove scrollbar space */
     background: transparent;  /* optional: just make scrollbar invisible */
 }
-.uk-section-default{
+.uk-section-default {
     background-image: url(./images/section-image.jpg);
 }
-.uk-navbar-nav>li>a{
+.uk-navbar-nav>li>a, .title {
     color: #ffffff;   
 }
-.title{
-    color: white;
-}
-.uk-icon-link{
+.uk-icon-link {
     color:rgb(197, 195, 195) !important;
 }
 
@@ -20,7 +17,7 @@ p {
 }
 
 .logo{
-    border-radius: 50%;
+    /* border-radius: 50%; */
     -webkit-transition: -webkit-transform .8s ease-in-out;
     transition:         transform .8s ease-in-out;
 }
