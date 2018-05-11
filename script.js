@@ -10,4 +10,8 @@ $(document).ready(function(){
            $('.uk-navbar').css('background-color', 'transparent');
         }
     });
+
+    $(".map").hover(()=>{
+        $(".map-uncover").toggleClass("uk-hidden");
+    });
  });
